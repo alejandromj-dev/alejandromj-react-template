@@ -3,3 +3,4 @@ build
 .eslintrc.js
 commitlint.config.js
 *.test.js
+*.test.tsx

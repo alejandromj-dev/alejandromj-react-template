@@ -24,6 +24,7 @@
     "stylelint": "stylelint src/*.css src/**/*.css",
     "stylelint:fix": "stylelint src/*.css src/**/*.css --fix",
     "test": "CI=true react-scripts test",
+    "test:cover": "react-scripts test --coverage",
     "verify": "npm run lint && npm run stylelint",
     "eject": "react-scripts eject",
     "prepare": "husky install"
